@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/pageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/orange">
+
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dip"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Menu"
+            android:textSize="30dip"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dip" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="250dip"
+            android:layout_below="@id/pageTitle" >
+        </ListView>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dip"
+            android:text="Submit"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/orange"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/home_screen_icon" />
+
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/profile_icon" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/exit_app_icon" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/pramo_000/StudioProjects/WTFnew2/app/src/main/res/layout/items.xml -->

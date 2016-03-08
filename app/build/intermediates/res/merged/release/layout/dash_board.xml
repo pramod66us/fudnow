@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.foodzone.DashBoard"
+    android:background="#fff" >
+
+    <RelativeLayout
+        android:id="@+id/pageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/orange">
+
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dip"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Menu Categories"
+            android:textSize="30dip"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+        <ListView
+            android:id="@+id/menuCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pageTitle">
+
+        </ListView>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@drawable/orange" >
+
+        <Button
+        	android:id="@+id/home_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/home_screen_icon"/>
+        
+        <Button
+        	android:id="@+id/profile_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/profile_icon"/>
+
+        <Button
+        	android:id="@+id/exit_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/exit_app_icon"/>
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/pramo_000/StudioProjects/WTFnew2/app/src/main/res/layout/dash_board.xml -->

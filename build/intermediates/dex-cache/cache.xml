@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\pre-dexed\release\classes-41da061fbebb40d0cb7ad3f62f61ac78713857a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\pre-dexed\release\internal_impl-22.2.1-00588fe0c3092933cb115675b432cfc10c0acb21.jar" />
+    </item>
+    <item
+        jar="C:\Users\pramo_000\StudioProjects\WTFnew2\app\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\pre-dexed\release\android-async-http-1.4.6-bccb4c4a0b3ee42dbba0d38e227462eb6896bc30.jar" />
+    </item>
+    <item
+        jar="C:\Users\pramo_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\pre-dexed\release\support-annotations-22.2.1-71fc81e8b2c4073b52105ac588edf245c83456de.jar" />
+    </item>
+    <item
+        jar="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\pramo_000\StudioProjects\WTFnew2\app\build\intermediates\pre-dexed\release\classes-79bc11fe058b2d969284f9f4b58936a3ef697945.jar" />
+    </item>
+
+</items>

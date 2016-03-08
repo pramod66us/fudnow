@@ -1,0 +1,123 @@
+<TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"  
+            android:stretchColumns="*"
+            android:background="#ffffff" >
+
+                        <!-- With 3 columns -->
+
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="10dip"
+                            android:layout_width="match_parent" >
+                            
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:text="Chicken Biryani"
+                                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                            <ImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:background="@drawable/like" />
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                            	android:layout_marginLeft="10dp"
+                                android:background="@drawable/unlike" />
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow2"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dip" >
+                            
+                            <TextView
+                                android:id="@+id/TextView03" 
+                                android:text="Paneer Rice"
+                            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:background="@drawable/like" />
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                            	android:layout_marginLeft="10dp"
+                                android:background="@drawable/unlike" />
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow3"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dip" >
+                            
+                            <TextView
+                                android:id="@+id/TextView05" 
+                                android:text="Masala Dosa"
+                            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:background="@drawable/like" />
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                            	android:layout_marginLeft="10dp"
+                                android:background="@drawable/unlike" />
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow4"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dip" >
+                            
+                            <TextView
+                                android:id="@+id/TextView07" 
+                                android:text="Egg Biryani"
+                            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:background="@drawable/like" />
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                            	android:layout_marginLeft="10dp"
+                                android:background="@drawable/unlike" />
+                        </TableRow>
+                         
+      </TableLayout><!-- From: file:/C:/Users/pramo_000/StudioProjects/WTFnew2/app/src/main/res/layout/tab3.xml -->

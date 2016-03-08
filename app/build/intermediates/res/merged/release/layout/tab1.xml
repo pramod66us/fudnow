@@ -1,0 +1,101 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F7D358" >
+	
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+		
+            <TextView
+                android:id="@+id/rest_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Rest Name"
+                android:textColor="#000"
+                android:textSize="24dip"
+                android:textStyle="bold" />
+        
+    <TableLayout
+		android:id="@+id/tbl"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+        
+        <TableRow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dip"
+			android:gravity="center_vertical"
+			android:background="@drawable/bottom_row" > 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast:"
+                android:paddingLeft="20dip"
+                android:textSize="20dip"
+                android:textStyle="bold"
+                android:textColor="#000" />
+        </TableRow>
+    
+    </TableLayout>
+    
+    <TableLayout
+		android:id="@+id/tbl_lunch"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="20dip"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+        
+        <TableRow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dip"
+			android:gravity="center_vertical"
+			android:background="@drawable/bottom_row" > 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch:"
+                android:paddingLeft="20dip"
+                android:textSize="20dip"
+                android:textStyle="bold"
+                android:textColor="#000" />
+        </TableRow>
+    
+    </TableLayout>
+	
+    <TableLayout
+		android:id="@+id/tbl_dinner"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="10dip"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+        
+        <TableRow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dip"
+			android:gravity="center_vertical"
+			android:background="@drawable/bottom_row" > 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner:"
+                android:paddingLeft="20dip"
+                android:textSize="20dip"
+                android:textStyle="bold"
+                android:textColor="#000" />
+        </TableRow>
+    
+    </TableLayout>
+	
+    </LinearLayout>
+	
+</ScrollView><!-- From: file:/C:/Users/pramo_000/StudioProjects/WTFnew2/app/src/main/res/layout/tab1.xml -->

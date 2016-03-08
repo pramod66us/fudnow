@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.foodzone.MainActivity" >
+
+            <LinearLayout
+                android:id="@+id/pageTitle"
+                android:layout_width="match_parent"
+                android:layout_height="90dip"
+                android:background="@drawable/orange"
+                android:gravity="center" >
+
+                <!--TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food Courts"
+                    android:textColor="#fff"
+                    android:textSize="30dip"
+                    android:textStyle="bold"/-->
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/logotitle"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/foodCourtList"
+                android:layout_below="@+id/pageTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center" >
+
+                <ListView
+                    android:id="@+id/foodCourts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                </ListView>
+
+            </LinearLayout>
+
+            
+            
+    <RelativeLayout
+        android:id="@+id/adminLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:layout_above="@id/bottom">
+
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Login? "
+            android:textSize="18sp" /> -->
+
+        <TextView
+            android:id="@+id/admin_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Login? Click here"
+            android:paddingBottom="10dip"
+            android:textSize="20sp" />
+        
+    </RelativeLayout>
+            
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@drawable/orange" >
+
+        <Button
+        	android:id="@+id/home_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/home_screen_icon"/>
+        
+        <Button
+        	android:id="@+id/profile_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/profile_icon"
+            android:visibility="gone"/>
+
+        <Button
+        	android:id="@+id/exit_button"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/exit_app_icon"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

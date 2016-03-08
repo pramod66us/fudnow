@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.foodzone"
+    android:versionCode="19"
+    android:versionName="1.7" >
+
+    <uses-sdk
+        android:minSdkVersion="8" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fudnow"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FoodCourts"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Floors"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Rests"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TabBar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TabVeg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TabNonVeg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DashBoard"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Items"
+            android:label="@string/title_activity_items"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FeedBack"
+            android:label="@string/title_activity_feed_back"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LocationScreen1"
+            android:label="@string/title_activity_location"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

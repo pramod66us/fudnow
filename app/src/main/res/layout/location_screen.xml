@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Choose your location"
+            android:textColor="#ffffff"
+            android:id="@+id/location_msg"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="239dp">
+        </TextView>
+
+        <Spinner
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationspinner"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignBottom="@+id/location_msg"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:id="@+id/imageView9"
+            android:src="@drawable/fudnow"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp" />
+    </RelativeLayout>
+
+</LinearLayout>
