@@ -25,4 +25,11 @@ public class Item {
     void setItemName(String Name){
         ItemName=Name;
     }
+	
+	  String getItemID1()
+    {
+        return ItemID;
+    }
+	
+	
 }
